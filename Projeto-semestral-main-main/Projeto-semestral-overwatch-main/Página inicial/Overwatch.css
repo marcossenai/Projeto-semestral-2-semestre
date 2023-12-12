@@ -1,0 +1,854 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.elemento {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+background {
+    background-color: lightblue;
+}
+
+.back {
+    width: 100%;
+    margin-top: 105px;
+    height: 765px;
+    background-image: url(image/imagem\ background\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: auto;
+    height: 66.58px;
+    left: 45px;
+    top: 19px;
+}
+
+.nome {
+    width: 310.52px;
+    height: 48.69px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+
+.videogames {
+    margin-top: auto;
+    width: 100%;
+    height: 100px;
+    top: 770px;
+    display: flex;
+    justify-content: center;
+    background: rgba(217, 217, 217, 0.75);
+}
+
+.tela {
+    width: 100%;
+    height: 430px;
+}
+
+.tela1 {
+    background-image: url(image/tela.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.window {
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 550px;
+    height: 380px;
+    transition: transform 0.3s;
+}
+
+.jogo {
+    width: 600px;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+#slider {
+    width: 100%;
+    height: 25%;
+    max-height: 150px;
+    position: relative;
+}
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 681px;
+    top: -5px;
+    object-fit: cover;
+    transition: 300ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+
+.telita {
+    width: 100%;
+    height: 540px;
+    top: 1972px;
+}
+
+.textohistoria {
+    width: 701px;
+    height: 230px;
+    top: 2080px;
+    left: 130px;
+}
+
+.tracerperfil {
+    float: right;
+    width: 523px;
+    height: 100%;
+    margin-left: 130px;
+}
+
+.histblack {
+    width: 190px;
+    height: 25px;
+}
+
+.conheçahistoria {
+    background-image: url(image/histblack.png);
+    background-color: white;
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 262px;
+    height: 65px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    transition: background-color 1s ease;
+
+}
+
+
+.conheçahistoria:hover {
+    background-color: rgb(255, 136, 0);
+    background-image: url(image/histwhite.png);
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 262px;
+    height: 65px;
+    left: 306px;
+    top: 2346px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tela2 {
+    width: 100%;
+    height: 450px;
+    top: 2512px;
+}
+
+.moira {
+    width: 581.94px;
+    height: 402px;
+    margin-top: 78px;
+
+}
+
+.barralaranja {
+    width: 530.69px;
+    height: 15px;
+    left: 0px;
+    top: 2948px;
+}
+
+.persons {
+    width: 649px;
+    height: 210px;
+    margin-bottom: 170px;
+    margin-left: 100px;
+}
+
+.herois {
+    background-image: url(image/heroisblack.png);
+    background-color: white;
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 262px;
+    height: 65px;
+    margin-left: 830px;
+    margin-top: -140px;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: background-color 1s ease;
+}
+
+.herois2 {
+    display: flex;
+}
+
+.herois:hover {
+    background-color: rgb(255, 136, 0);
+    background-image: url(image/heroiswhite.png);
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 262px;
+    height: 65px;
+    left: 875px;
+    top: 2816px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela3 {
+    width: 100%;
+    height: 494px;
+}
+
+.mapas {
+    width: 837px;
+    height: 494px;
+    left: 680px;
+    top: 2961px;
+}
+
+.tri {
+    width: 100px;
+    height: 100%;
+}
+
+.conhecaMapas {
+    width: 606px;
+    height: 167px;
+}
+
+.botaoMapas {
+    background-image: url(image/mapablack.png);
+    background-color: white;
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 267px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: background-color 1s ease;
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+.botaoMapas:hover {
+    font-family: 'noodle';
+    background-color: rgb(255, 123, 0);
+    background-image: url(image/mapawhite.png);
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 267px;
+    height: 65px;
+    left: 219px;
+    top: 3300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.tela5 {
+    background-color: #C8D6EB;
+    width: 100%;
+    height: 500px;
+    top: 4120px;
+}
+
+.cima {
+    top: 4120px;
+    width: 530px;
+    height: 14px;
+    z-index: 1;
+}
+
+.baixo {
+    top: 4606px;
+    width: 530px;
+    height: 14px;
+    z-index: 1;
+}
+
+.cubana {
+    width: 477px;
+    height: 425px;
+    margin-top: 25px;
+}
+
+.att {
+    width: 695px;
+    height: 255px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+}
+
+.novidades {
+    background-color: #171A2C;
+    height: 89px;
+    width: 100%;
+    top: 4620px;
+    display: flex;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'fonti';
+    src: url(font/big_noodle_titling.ttf);
+}
+
+.ligado {
+    font: 200 64px 'fonti', sans-serif;
+    color: #B5C1CD;
+    margin-left: 106px;
+
+}
+
+.iconeyt {
+    width: 54px;
+    height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconeyt:hover {
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: scale(1.1);
+
+}
+
+.iconeins {
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconeins:hover {
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+    transform: scale(1.1);
+}
+
+.iconeface {
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconeface:hover {
+    transform: scale(1.1);
+}
+
+
+.iconett {
+    width: 42px;
+    height: 41px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconett:hover {
+    transform: scale(1.1);
+}
+
+
+.plat {
+    height: 75px;
+    width: auto;
+    margin-top: 11px;
+    transition: opacity 0.3s;
+}
+
+.plat:hover {
+    opacity: 0.5;
+}
+
+.tamanho {
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@font-face {
+    font-family: 'noodle';
+    src: url(font/big_noodle_titling_oblique.ttf);
+}
+
+.botoes {
+    font-family: 'noodle';
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: inline-block;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: color 0.3s, border-color 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.botoes:hover {
+    color: #DA6025;
+    border-bottom: 2px solid black;
+}
+
+
+.div-botoes {
+    display: flex;
+    width: auto;
+    margin-left: 50px;
+}
+
+.botoes-1 {
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    font-family: 'noodle';
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.botoes-1:hover {
+    color: #DA6025;
+    ;
+}
+
+.botoes-1 span {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.botoes-1:hover span {
+    transform: rotate(180deg);
+}
+
+.widow-container {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+.tela-tracer {
+    background-image: url(image/telita.png);
+    overflow: hidden;
+    margin-top: 675px;
+    height: auto;
+    display: flex;
+}
+
+.final {
+    height: auto;
+}
+
+.logos {
+    height: 30px;
+    width: 30px;
+}
+
+.icones {
+    margin-left: 123px;
+}
+
+.logo1,
+.logo2,
+.logo3 {
+    margin-left: 20px;
+}
+
+.logo2 {
+    height: 40px;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+.blizzard {
+    height: auto;
+    width: auto;
+}
+
+.bliz {
+    width: 120px;
+    height: 64px;
+    margin-left: 235px;
+}
+
+.copyRight {
+    width: auto;
+    height: auto;
+}
+
+.copy {
+    width: 254px;
+    margin-bottom: -10px;
+    margin-left: 30px;
+}
+
+.clasi {
+    width: auto;
+    height: auto;
+    width: auto;
+    margin-left: 80%;
+    position: absolute;
+}
+
+.c12 {
+    width: 120px;
+    height: 55px;
+    margin-bottom: -20px;
+}
+
+.bliz:hover {
+    filter: brightness(180%);
+}
+
+.div-logo {
+    width: auto;
+    margin-left: 60px;
+    justify-content: center;
+}
+
+.conteudos {
+    padding-left: 10%;
+    height: auto;
+    width: auto;
+    align-items: center;
+}
+
+.tracerFoto {
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+.conteudo2 {
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.moira-div {
+    background-image: url(image/tela2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 490px;
+    width: 100%;
+    margin-top: -2px;
+}
+
+.background-mapas {
+    background-image: url(image/mapa-back.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.mapa-texto {
+    height: auto;
+    width: auto;
+    margin-left: -50%;
+}
+
+.botaoMapas-container {
+    position: relative;
+}
+
+.botaoMapas:hover #particles-js {
+    display: block;
+}
+
+.tela4 {
+    background-image: url(image/sombra-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    margin-top: 218px;
+}
+
+.sombra {
+    width: auto;
+    height: auto;
+}
+
+.sigmaSkin {
+    height: 605px;
+    width: auto;
+}
+
+.sigma {
+    width: 100%;
+    height: auto;
+}
+
+.logos:hover {
+    opacity: 0.4; 
+}
+
+
+
+
+@media screen and (min-width:425px) and (max-width: 767px) {
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .div-logo {
+        display: flex;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    .logo,
+    .nome {
+        height: 50px;
+        width: auto;
+    }
+
+    .back {
+        background-position: center;
+        height: 547px;
+    }
+
+    .plat {
+        height: 50px;
+    }
+
+    .videogames {
+        height: 74px;
+    }
+
+    .botoes,
+    .botoes-1 {
+        font-size: 21px;
+    }
+
+    .botoes-1 {
+        margin-left: 35px;
+    }
+
+    .frase-tamanho {
+        width: 250px;
+    }
+
+    .div-botoes {
+        flex-wrap: wrap;
+    }
+
+    .tela1 {
+        height: 775px;
+        background-size: cover;
+    }
+
+    #slider img {
+        margin-top: 350px;
+    }
+
+    .jogo {
+        margin-bottom: 0px;
+        margin-top: 40px;
+        margin-left: 11%;
+    }
+
+    .conteudo2 {
+        margin-left: 65px;
+    }
+
+    .tela-tracer {
+        margin-top: 1025px;
+    }
+
+    .tracerperfil {
+        margin-left: -60px;
+    }
+
+    .textohistoria {
+        width: auto;
+        height: 238px;
+    }
+
+    .moira {
+        width: auto;
+        height: 300px;
+        margin-left: -40px;
+    }
+
+    .persons {
+        margin-bottom: 0;
+        width: auto;
+        height: 153px;
+        margin-bottom: 150px;
+        margin-left: 56px;
+    }
+
+    .herois {
+        margin-left: 570px;
+        margin-top: -130px;
+    }
+
+    .moira-personagem {
+        flex-wrap: wrap;
+    }
+
+    .moira-div {
+        height: 386px;
+    }
+
+    .background-mapas {
+        height: 400px;
+    }
+
+    .conhecaMapas {
+        height: 122px;
+        width: auto;
+    }
+
+    .background-mapas {
+        margin-top: -6px;
+    }
+
+    .sigma {
+        margin-top: -18px;
+    }
+
+    .tela4{
+        margin-top: -71px;
+        height: 350px;
+    }
+
+    .cubana{
+        width: auto;
+        height: 320px;
+        margin-top: 30px;
+    }
+
+    .att{
+        width: auto;
+        height: 150px;
+        margin-left: 80px;
+    }
+
+    .bliz{
+        margin-left: 50px;
+    }
+
+    .icones{
+        margin-left: 70px;
+    }
+
+    .logos{
+        width: auto;
+        height: 25px;
+    }
+
+    .logo2{
+        margin-bottom: -3px;
+        height: auto;
+        width: 34px;
+    }
+    
+}
+
+@media screen and (min-width:1025px) and (max-width: 1348px) {
+    .div-logo {
+        display: flex;
+    }
+
+    .back {
+        background-position: center;
+    }
+
+    .div-botoes {
+        display: inline;
+    }
+
+    .botoes-1 {
+        margin-left: 100px;
+    }
+
+    .nome {
+        margin-top: 12px;
+    }
+
+    .div-botoes{
+        margin-left: 130px;
+    }
+    
+
+
+}
+
+@media screen and (min-width:1345px) and (max-width: 1440px) {
+    .tela-tracer {
+        margin-top: 674px;
+    }
+
+    .sigmaSkin {
+        margin-top: -13px;
+    }
+
+    
+}
